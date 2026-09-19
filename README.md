@@ -9,23 +9,23 @@
 
 ## Introduction
 
-J'ai ouvert mon application Telegram apres plusieurs d'inactivité, je me suis rendu compte que j'ai un grand nombre d'echange et de groupes dont je ne connais meme pas ou dont j'ai été ajouté automatioquement
+J'ai ouvert mon application Telegram apres plusieurs mois  d'inactivité, je me suis rendu compte que j'ai un grand nombre d'echange et de groupes dont je ne connais meme pas ou dont j'ai été ajouté automatioquement
 je me suis rendu dans les parametre ou  j'ai défini l'action de geste de glissement d'échange pour supprimer l'échange,
-mais je me suis vite rendu compte que  j'été entrain d'effectuer une tâche répétitive, en plus  j'ai vraiment pas de temps à perdre
+mais je me suis vite rendu compte que  j'été en train d'effectuer une tâche répétitive, en plus  j'ai vraiment pas de temps à perdre
 j'ai au moins plus 500 échange, et je ne souhaite en garder que quelques uns, j'ai pas non plus envie de changer de compte ni de perdre certains échanges en supprimante compte.
-Je me suis poser la question : comment  résoudre ça avec python ?
+Je me suis posé la question : comment  résoudre ça avec python ?
 
-J'ai fais mes recherche concerant la creation de Bot Telegram avec Python, et je suis tomber sur la bibliotheque Telethon.
+J'ai fais mes recherches concernant la creation de Bot Telegram avec Python, et je suis tomber sur la bibliotheque Telethon.
 Une bibliothèque Python qui utilise l'API MTProto de Telegram. 
-Elle  permet de gérer son compte comme si on  étais dans l'appli, on peut :
+Elle permet de gérer son compte comme si on était dans l'appli, on peut :
 - Lister tous les echanges
-- Supprimer les echanges
+- Supprimer les échanges
 - Envoyer/recuper des message
-Quasiment tous ce qui est possible depuis l'application Telegram lui meme.
-C'est alors que j'ai ecrit ce script qui ma permis en quelques seconds, et avec quelques ligne de code, de supprimer instantanement plus 500 echnanges en direct,
-- ce qui impression, ce que j'ai gardé l'application Telegram ouvert sur mon Windows, et j'assite au spectacle, les echange sont supprimer en direct, je le vois depuis l'application, elle disparaissent une a une sous mes yeux.
 
-C'est ce qui me plais avec Python, ça polyvalence, et surtout en terme d'automatisation, ça c'est n'sst qu'un ecript, mais les possiblitées qu'aoofre Python vont au-delas. 
+Quasiment tout ce qui est possible depuis l'application Telegram lui meme.
+C'est alors que j'ai écrit ce script qui m'a permis en quelques seconds, et avec quelque lignes de code, de supprimer instantanément plus 500 exchanges en direct, ce qui impression, ce que j'ai gardé l'application Telegram ouvert sur mon Windows, et j'assiste au spectacle, les échange sont supprimé en direct, je le vois depuis l'application, elle disparaissent une a une sous mes yeux.
+
+C'est ce qui me plait avec Python, sa polyvalence, et surtout en terme d'automatisation, ça, c'est n'est qu'un script, mais les possibles qu'offre Python vont au delas. 
 
 ---
 
