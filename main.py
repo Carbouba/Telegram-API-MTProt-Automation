@@ -25,14 +25,17 @@ async def main():
         non_achived = await client.get_dialogs(archived=False)
         print('\n\n')
         print(f'Archived {'=' * 20}')
-        # parcourir la list, et effectuer l'action de suppression sur chaque element dialog
-        for i, dialog in enumerate(achived):
-            # toutes les echanges non archivées, seront supprimées
-            await client.delete_dialog(dialog)
-            # Attendre un delai de 5 second entre chaque suppression, pour eviter le FloodWaitError
-            await asyncio.sleep(5)
-            print(f'{i} - {dialog.name} has successfully deleted')
 
+        # ===================================================================================
+        # parcourir la list, et effectuer l'action de suppression sur chaque element dialog
+        # for i, dialog in enumerate(achived):
+        #     # toutes les echanges non archivées, seront supprimées
+        #     await client.delete_dialog(dialog)
+        #     # Attendre un delai de 5 second entre chaque suppression, pour eviter le FloodWaitError
+        #     await asyncio.sleep(5)
+        #     print(f'{i} - {dialog.name} has successfully deleted')
+
+        # ===================================================================================
         #     Enfin, desarchivé les discussions dans le dossier archivé
         for i, dialog in enumerate(achived):
             await client.edit_folder(dialog, 0)
